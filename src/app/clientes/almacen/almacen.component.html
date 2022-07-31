@@ -1,0 +1,24 @@
+
+<div>
+    <div *ngFor="let producto of getProductos">
+        <div class="row">
+            <div class="col-4">
+                <img [src]="producto.imagen" alt="img">
+            </div>
+            <div class="col-8 ">
+                <div class="row align-items-start" style="height:50% ;">
+                    <div class="col-10"><h6>{{producto.nombre}}</h6></div>
+                    <div class="col-2"><i class="pi pi-heart"></i></div>
+                </div>
+                <div class="row align-items-end" style="height:50% ;">
+                    <div class="col-10 ">
+                        <p class="m-0" style="color:blue; font-size: x-small;" >{{producto.descuento}}/{{producto.precio}}</p>
+                        <h6 class="m-0" > <i class="pi pi-dollar"></i> {{producto.precio|number}}</h6>
+                    </div>
+                    <div class="col-2"><h6 ><i class="pi pi-amazon" ></i></h6></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+.item-menu{
+    cursor: pointer;
+    font-size:xx-small
+}
+
+img{
+    border-radius: 8px;
+    width: 100%;
+}

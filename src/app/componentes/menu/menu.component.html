@@ -1,0 +1,7 @@
+<div class="row ">
+    <div *ngFor="let item of menu" class="col-3 item-menu" [routerLink]="item.ruta">
+       <img [src]="item.imagen" alt="img">
+       <p>{{item.nombre}}</p>
+
+    </div>
+</div>

@@ -1,0 +1,33 @@
+{
+    "productos":[
+        {
+            "imagen":"/assets/chaqueta.jpg",
+            "nombre":"Chaqueta",
+            "precio": 50000,
+            "descuento":0
+         },
+         {
+             "imagen":"/assets/botas.jpg",
+             "nombre":"Botas",
+             "precio": 110000,
+             "descuento":-10
+          },
+          {
+             "imagen":"/assets/botas.jpg",
+             "nombre":"Guantes",
+             "precio": 80000,
+             "descuento":0
+          },{
+             "imagen":"/assets/botas.jpg",
+             "nombre":"Casco Cerrado",
+             "precio": 550000,
+             "descuento":0
+          },
+          {
+             "imagen":"/assets/botas.jpg",
+             "nombre":"Casco Abierto",
+             "precio": 350000,
+             "descuento":0
+          }
+    ]
+}
